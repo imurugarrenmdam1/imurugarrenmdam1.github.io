@@ -8,47 +8,71 @@
 </head>
 <!--El body de la cabecera-->
 <body>
-    <!--Tengo que cambiar el logo de prueba-->
+    <!--Tengo que cambiar el logo de prueba,
+    el li de "logo" nos lleva a HOME-->
     <h1>El logo es de prueba</h1>
-    <a href="index.html"><img src="imagenes/Banner.jpg" alt="Banner" class="banner"></a>
+    <a src="index.html"><img src="imagenes/Banner.jpg" alt="Banner" class="banner"></a>
     <ul>
-        <li><a class="active" href="index.html">Inicio</a></li>
-        <li><a href="prueba.html"><img src="Imgs/logo_prueba.jpeg"></a></li>
-        <li><a href="">Artistas</a></li>
-        <li><a href="">Reserbas</a></li>
+        <li><a src="prueba.html"><img src="Imgs/logo_prueba.jpeg"></a></li>
+        <li><a src="">Artistas</a></li>
+        <li><a src="">Reserbas</a></li>
       </ul>
       <!--El cuerpo del home esta dividido en tres divvs-->
       <div class="cuerpohome">
         <h2>Proximos conciertos</h2>
         <!--Este es el primer div, de cards-->
         <!--Tengo que enlazar los cards y crear una entrada-->
-        <div>
-            <div class="concierto-uno"><a href="vacio"></a></div>
-            <div class="concierto-dos"><a href="vacio"></a></div>
-            <div class="concierto-tres"><a href="vacio"></a></div>
-            <div class="concierto-cuatro"><a href="vacio"></a></div>
-            <div class="concierto-cinco"><a href="vacio"></a></div>
-            <div class="concierto-seis"><a href="vacio"></a></div>
+        <!--Hay que cambiar el tamaño y terminar los cards-->
+        <div class="galeriaHome1">
+            <div class="concierto-uno"><img src="Imagenes/ImagendepruebaHome.jpg"></a></div>
+            <div class="concierto-dos"><img src="Imagenes/ImagendepruebaHome.jpg"></a></div>
+            <div class="concierto-tres"><img src="Imagenes/ImagendepruebaHome.jpg"></a></div>
+            <div class="concierto-cuatro"><img src="Imagenes/ImagendepruebaHome.jpg"></a></div>
+            <div class="concierto-cinco"><img src="Imagenes/ImagendepruebaHome.jpg"></a></div>
+            <div class="concierto-seis"><img src="Imagenes/ImagendepruebaHome.jpg"></a></div>
         </div>
       </div>
       <!--(NO ESTA CREADO)Este es el segundo div, de reservas-->
-      <!--Este es el terces div, el de cuestionario (SIN TERMINAR)-->
+      <!--(NO ESTA CREADO)QUias en la version final no incluyo 
+        esta pequeña galeria de resesrvas para no quitrale importancia
+      a la propia categoria de reservas -->
+      <h2>Algunas reservas</h2>
+      <div>
+        <div class="concierto-uno"><a src="Imagenes/ImagendepruebaHome.jpg"></a></div>
+        <div class="concierto-dos"><a src="Imagenes/ImagendepruebaHome.jpg"></a></div>
+        <div class="concierto-tres"><a src="Imagenes/ImagendepruebaHome.jpg"></a></div>
+        <div class="concierto-cuatro"><a src="Imagenes/ImagendepruebaHome.jpg"></a></div>
+        <div class="concierto-cinco"><a src="Imagenes/ImagendepruebaHome.jpg"></a></div>
+        <div class="concierto-seis"><a src="Imagenes/ImagendepruebaHome.jpg"></a></div>
+      </div>
+  </div>
+      <!--Este es el tercer div, el de cuestionario (SIN TERMINAR)-->
+      <!--Hay que cambiar de los input los  id y name porque los puse iguales
+      , hay que cambiarlos para asegurarse que no haya conflictos-->
+      <!--Hay que cambiarle el form action el "formcontacto" y ponerlo bien con un src-->
       <div class="cuerpocuestionario">
         <div class="titulocuestinario"></div>
         <div class="cuestionario">
-            <form action="">
-                <laber for="">Correo</laber></br>
-                <input type=""></input></br>
+          <fieldset>
+            <form action="formcontacto">
+                <laber for="mensajeria">Correo</laber></br>
+                <input type="email" id="mensajeria" name="mensajeria" value=""></input></br>
 
-                <laber for="">Nombre</laber></br>
-                <input type=""></input></br>
+                <laber for="nombre">Nombre</laber></br>
+                <input type="text" id="nombre" name="nombre"></input></br>
                 
-                <laber for="">Telefono</laber></br>
-                <input type=""></input></br>
+                <laber for="telef">Telefono</laber></br>
+                <input type="tel" id="telef" name="telef"></input></br>
+
+                <label for="codpostal">Código postal</label></br>
+                <input type="text" id="codpostal" name="codpostal"></br>
 
                 <laber for="">Asunto</laber></br>
-                <input type=""></input></br>
+                <textarea name="dasd" colds="50" robs="50"></textarea></br></br>
+
+                <input type="submit"/>
             </form>
+          </fieldset>
         </div>
       </div>
 </body>
