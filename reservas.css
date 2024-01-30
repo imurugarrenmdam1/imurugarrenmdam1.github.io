@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.banner {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    position: sticky;
+    margin: 0;
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    width: 100% ;
+}
+
+.banner h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.banner p {
+    font-size: 1.2em;
+    margin: 10px 0 0;
+}
