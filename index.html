@@ -1,11 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">                            
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Reservas</title>
+    <link rel="stylesheet" href="index.css">
 </head>
+<!--El body de la cabecera-->
 <body>
-    <h1>Hola soy Iker</h1>
+    <!--Tengo que cambiar el logo de prueba,
+    el li de "logo" nos lleva a HOME-->
+    <h1>El logo es de prueba</h1>
+    <a src="index.html"><img src="imagenes/Banner.jpg" alt="Banner" class="banner"></a>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="Artistas.html">Artistas</a></li>
+      <li><a class="active" href="reservas.html">Reserva</a></li>
+      </ul>
+      <!--El cuerpo del home esta dividido en tres divvs-->
+      <div class="cuerpohome">
+        <h2>Proximos conciertos</h2>
+        <!--Este es el primer div, de cards-->
+        <!--Tengo que enlazar los cards y crear una entrada-->
+        <!--Hay que cambiar el tamaño y terminar los cards-->
+        <div class="galeriaHome1">
+            <div class="concierto-uno"><img src="Imagenes/ImagendepruebaHome.jpg"></a></div>
+            <div class="concierto-dos"><img src="Imagenes/ImagendepruebaHome.jpg"></a></div>
+            <div class="concierto-tres"><img src="Imagenes/ImagendepruebaHome.jpg"></a></div>
+            <div class="concierto-cuatro"><img src="Imagenes/ImagendepruebaHome.jpg"></a></div>
+            <div class="concierto-cinco"><img src="Imagenes/ImagendepruebaHome.jpg"></a></div>
+            <div class="concierto-seis"><img src="Imagenes/ImagendepruebaHome.jpg"></a></div>
+        </div>
+      </div>
+      <!--(NO ESTA CREADO)Este es el segundo div, de reservas-->
+      <!--(NO ESTA CREADO)QUias en la version final no incluyo 
+        esta pequeña galeria de resesrvas para no quitrale importancia
+      a la propia categoria de reservas -->
+      <h2>Algunas reservas</h2>
+      <div>
+        <div class="concierto-uno"><a src="Imagenes/ImagendepruebaHome.jpg"></a></div>
+        <div class="concierto-dos"><a src="Imagenes/ImagendepruebaHome.jpg"></a></div>
+        <div class="concierto-tres"><a src="Imagenes/ImagendepruebaHome.jpg"></a></div>
+        <div class="concierto-cuatro"><a src="Imagenes/ImagendepruebaHome.jpg"></a></div>
+        <div class="concierto-cinco"><a src="Imagenes/ImagendepruebaHome.jpg"></a></div>
+        <div class="concierto-seis"><a src="Imagenes/ImagendepruebaHome.jpg"></a></div>
+      </div>
+  </div>
+      <!--Este es el tercer div, el de cuestionario (SIN TERMINAR)-->
+      <!--Hay que cambiar de los input los  id y name porque los puse iguales
+      , hay que cambiarlos para asegurarse que no haya conflictos-->
+      <!--Hay que cambiarle el form action el "formcontacto" y ponerlo bien con un src-->
+      <div class="cuerpocuestionario">
+        <div class="titulocuestinario"></div>
+        <div class="cuestionario">
+          <fieldset>
+            <form action="formcontacto">
+                <laber for="mensajeria">Correo</laber></br>
+                <input type="email" id="mensajeria" name="mensajeria" value=""></input></br>
+
+                <laber for="nombre">Nombre</laber></br>
+                <input type="text" id="nombre" name="nombre"></input></br>
+                
+                <laber for="telef">Telefono</laber></br>
+                <input type="tel" id="telef" name="telef"></input></br>
+
+                <label for="codpostal">Código postal</label></br>
+                <input type="text" id="codpostal" name="codpostal"></br>
+
+                <laber for="">Asunto</laber></br>
+                <textarea name="dasd" colds="50" robs="50"></textarea></br></br>
+
+                <input type="submit"/>
+            </form>
+          </fieldset>
+        </div>
+      </div>
 </body>
 </html>
