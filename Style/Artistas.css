@@ -10,7 +10,7 @@
   padding: 20px;
   background-color: #1E235B;
   position: relative;
-  background: url('../imagenes/CTa.gif') center center fixed; /* Establece la imagen de fondo y su posición */
+  background: url('../Imagenes/CTa.gif') center center fixed; /* Establece la imagen de fondo y su posición */
   background-size: cover; 
   width: 100%;
   margin: 0;
@@ -23,7 +23,7 @@
   display: block;
   margin: 0;
   padding: 0;
-  background-image: url('../imagenes/LogoEmpresa.jpg')center center fixed; /* Cambia 'ruta/de/la/imagen.jpg' por la ruta de tu imagen */
+  background-image: url('../Imagenes/LogoEmpresa.jpg')center center fixed; /* Cambia 'ruta/de/la/imagen.jpg' por la ruta de tu imagen */
   
 }
 
@@ -41,7 +41,7 @@ body {
   padding: 0;
   background-color: #0A0E3F;
   color: white;
-  background: url('../imagenes/CTa.gif') center center fixed; /* Establece la imagen de fondo y su posición */
+  background: url('../Imagenes/CTa.gif') center center fixed; /* Establece la imagen de fondo y su posición */
   background-size: cover; 
 }
 
@@ -131,7 +131,7 @@ footer {
   color: #fff;
   text-align: center;
   padding: 20px 0;
-  background: url('../imagenes/CTa.gif') center center fixed; /* pone el gif de fondo y su posición */
+  background: url('../Imagenes/CTa.gif') center center fixed; /* pone el gif de fondo y su posición */
   background-size: cover;
 }
 
