@@ -74,6 +74,38 @@ li a:hover {
 
 
 
+
+/*Los el color background del body, imagenes y divs de la pagina principal esta horrible,
+pero esta asi temporalmente para hacer pruebas con los espaciados*/
+/*Cuerpo de Home*/
+.cuerpohome {
+  align-content: center;
+  margin: 20px;
+  background-color: #0A0E3F;
+}
+/*Css cards*/
+
+.galeriahome1{
+  background-color: #01a5bb;
+  margin: 20px;
+  border: 1px solid #ccc;
+}
+.galeriahome1 img{
+  padding: 20px;
+  height: 100px;
+  width: 100px;
+}
+
+.concierto-uno{
+  
+  
+}
+
+
+
+
+
+
 /*NO TOCAR CODIGO DE DE ABAJO(FOOTER)*/
 footer {
     color: #fff;
