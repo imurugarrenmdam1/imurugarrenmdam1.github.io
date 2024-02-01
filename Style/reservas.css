@@ -9,18 +9,20 @@
     padding: 20px;
     background-color: #1E235B;
     position: relative;
-    background: url('imagenes/CTa.gif') center center fixed; /* Establece la imagen de fondo y su posición */
+    background: url('../imagenes/CTa.gif') center center fixed; /* Establece la imagen de fondo y su posición */
     background-size: cover; 
+    width: 100%;
+    margin: 0;
+    padding: 0; 
 }
 
 .banner img {
-    max-width: 100%;
+    max-width: 10%;
     height: auto auto auto auto;
     display: block;
-    margin: -20px;
-    background-image: url('../imagenes/LogoEmpresa.jpg'); /* Cambia 'ruta/de/la/imagen.jpg' por la ruta de tu imagen */
-    background-size: cover; /* Cubrir todo el fondo */
-    background-position: center;
+    margin: 0;
+    padding: 0;
+    background-image: url('../imagenes/LogoEmpresa.jpg')center center fixed; /* Cambia 'ruta/de/la/imagen.jpg' por la ruta de tu imagen */
     
 }
 

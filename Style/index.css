@@ -1,74 +1,80 @@
 
 /*NO TOCAR TODO ESTE CODIGO ES EL BACKGROUND, EL NAVBAR Y EL BANNER */
 * {
-    padding: 0;
-    margin: 0;
-    font-family: Arial, sans-serif;
-  }
-
-  .banner {
-    text-align: center;
-    padding: 20px;
-    background-color: #1E235B;
-    position: relative;
-    background: url('../imagenes/CTa.gif') center center fixed; /* Establece la imagen de fondo y su posición */
-    background-size: cover; 
-}
-
-.banner img {
-    max-width: 25%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    
-}
-
-.banner-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
-}
-
-  body {
-    margin: 0;
-    padding: 0;
-    background-color: #0A0E3F;
-    color: white;
-    background: url('../imagenes/CTa.gif') center center fixed; /* Establece la imagen de fondo y su posición */
-    background-size: cover; 
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
 .banner {
-    text-align: center;
-    padding: 20px;
+  text-align: center;
+  padding: 20px;
+  background-color: #1E235B;
+  position: relative;
+  background: url('../imagenes/CTa.gif') center center fixed; /* Establece la imagen de fondo y su posición */
+  background-size: cover; 
+  width: 100%;
+  margin: 0;
+  padding: 0; 
+}
+
+.banner img {
+  max-width: 10%;
+  height: auto auto auto auto;
+  display: block;
+  margin: 0;
+  padding: 0;
+  background-image: url('../imagenes/LogoEmpresa.jpg')center center fixed; /* Cambia 'ruta/de/la/imagen.jpg' por la ruta de tu imagen */
+  
+}
+
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0A0E3F;
+  color: #01a5bb;
+  background: url('../imagenes/CTa.gif') center center fixed; /* Establece la imagen de fondo y su posición */
+  background-size: cover; 
+}
+
+.banner {
+  text-align: center;
+  padding: 20px;
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #000000;
-    text-align: center; /* Añadido para centrar el navbar */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+  text-align: center; /* Añadido para centrar el navbar */
 }
 
 li {
-    display: inline-block; /* Añadido para alinear horizontalmente los elementos */
+  display: inline-block; /* Añadido para alinear horizontalmente los elementos */
 }
 
 li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 li a:hover {
-    background-color: #01a5bb;
+  background-color: #01a5bb;
+
 }
 /*NO TOCAR CODIGO DE ARRIBA(BANNER)*/
 
