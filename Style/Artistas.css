@@ -10,7 +10,7 @@
     padding: 20px;
     background-color: #1E235B;
     position: relative;
-    background: url('imagenes/CTa.gif') center center fixed; /* Establece la imagen de fondo y su posición */
+    background: url('../imagenes/CTa.gif') center center fixed; /* Establece la imagen de fondo y su posición */
     background-size: cover; 
 }
 
@@ -36,7 +36,7 @@
     padding: 0;
     background-color: #0A0E3F;
     color: white;
-    background: url('imagenes/CTa.gif') center center fixed; /* Establece la imagen de fondo y su posición */
+    background: url('../imagenes/CTa.gif') center center fixed; /* Establece la imagen de fondo y su posición */
     background-size: cover; 
 }
 
