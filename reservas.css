@@ -9,13 +9,19 @@
     padding: 20px;
     background-color: #1E235B;
     position: relative;
+    background: url('imagenes/CTa.gif') center center fixed; /* Establece la imagen de fondo y su posición */
+    background-size: cover; 
 }
 
 .banner img {
     max-width: 100%;
-    height: auto;
+    height: auto auto auto auto;
     display: block;
     margin: 0 auto;
+    background-image: url('imagenes/LogoEmpresa.jpg'); /* Cambia 'ruta/de/la/imagen.jpg' por la ruta de tu imagen */
+    background-size: cover; /* Cubrir todo el fondo */
+    background-position: center;
+    
 }
 
 .banner-content {
@@ -32,6 +38,8 @@
     padding: 0;
     background-color: #0A0E3F;
     color: white;
+    background: url('imagenes/CTa.gif') center center fixed; /* Establece la imagen de fondo y su posición */
+    background-size: cover; 
 }
 
 .banner {
@@ -44,7 +52,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #7e5704;
+    background-color: #000000;
     text-align: center; /* Añadido para centrar el navbar */
 }
 
@@ -61,7 +69,8 @@ li a {
 }
 
 li a:hover {
-    background-color: #0A0E3F;
+    background-color: #01a5bb;
+
 }
 
 h1 {
@@ -72,7 +81,8 @@ h1 {
     width: 50%;
     margin: 0 auto;
     padding: 20px;
-    background-color: #1E235B;
+    background-color: black;
+    
 }
 
 fieldset {
@@ -95,7 +105,7 @@ textarea {
 }
 
 input[type="submit"] {
-    background-color: #7e5704;
+    background-color: #01a5bb;
     color: white;
     padding: 10px 15px;
     border: none;
@@ -104,5 +114,38 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #7e5704;
+    background-color: #01a5bb;
 }
+
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    background: url('imagenes/CTa.gif') center center fixed; /* pone el gif de fondo y su posición */
+    background-size: cover;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-logo img {
+    width: 100px; /* Ajusta el tamaño del logo */
+  }
+  
+  .footer-info {
+    text-align: left;
+  }
+  
+  .footer-info p {
+    margin: 8px 0;
+  }
+  
+  .footer-social img {
+    width: 30px; /* Ajusta el tamaño de los iconos de redes sociales */
+    margin-right: 10px;
+    }
