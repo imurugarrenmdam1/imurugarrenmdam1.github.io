@@ -79,6 +79,63 @@ li a:hover {
 /*NO TOCAR CODIGO DE ARRIBA(BANNER)*/
 
 
+/*Los el color background del body, imagenes y divs de la pagina principal esta horrible,
+pero esta asi temporalmente para hacer pruebas con los espaciados*/
+/*Cuerpo de Home*/
+.cuerpohome {
+  align-content: center;
+  margin: 20px;
+  background-color: #0A0E3F;
+}
+/*Css cards1*/
+
+.galeriahome1{
+  background-color: #01a5bb;
+  margin: 20px;
+  border: 1px solid #ccc;
+  display: grid;
+  gap: 20px 20px;
+  padding: 10px;
+  
+}
+figure {
+  height: 90px;
+  width: 90px;
+  margin: 10px;
+  
+}
+figure img{
+  height: 100px;
+  width: 100px;
+}
+
+.conciertouno{
+  grid-column: 1 / 2;
+  grid-row: 1/ 2;
+}
+.conciertodos{
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+.conciertotres{
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
+
+.conciertocuatro{
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+.conciertocinco{
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+.conciertoseis{
+  grid-column: 3 / 4;
+  grid-row: 2 / 3 ;
+}
+
+
 
 /*NO TOCAR CODIGO DE DE ABAJO(FOOTER)*/
 footer {
