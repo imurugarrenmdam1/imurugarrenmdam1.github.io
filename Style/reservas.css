@@ -9,18 +9,27 @@
     padding: 20px;
     background-color: #1E235B;
     position: relative;
-    background: url('imagenes/CTa.gif') center center fixed; /* Establece la imagen de fondo y su posición */
+    background: url('../Imagenes/CTa.gif') center center fixed; /* Establece la imagen de fondo y su posición */
     background-size: cover; 
+    width: 100%;
+    margin: 0;
+    padding: 0; 
 }
 
 .banner img {
-    max-width: 100%;
+    max-width: 10%;
     height: auto auto auto auto;
     display: block;
+<<<<<<< HEAD:reservas.css
     /*margin: 0 auto;*/
     background-image: url('imagenes/LogoEmpresa.jpg'); /* Cambia 'ruta/de/la/imagen.jpg' por la ruta de tu imagen */
     background-size: cover; /* Cubrir todo el fondo */
     background-position: center;
+=======
+    margin: 0;
+    padding: 0;
+    background-image: url('../Imagenes/LogoEmpresa.jpg')center center fixed; /* Cambia 'ruta/de/la/imagen.jpg' por la ruta de tu imagen */
+>>>>>>> 9243b08259fdee609b40d214a641619b67b32944:Style/reservas.css
     
 }
 
@@ -37,8 +46,8 @@
     margin: 0;
     padding: 0;
     background-color: #0A0E3F;
-    color: white;
-    background: url('imagenes/CTa.gif') center center fixed; /* Establece la imagen de fondo y su posición */
+    color: #01a5bb;
+    background: url('../Imagenes/CTa.gif') center center fixed; /* Establece la imagen de fondo y su posición */
     background-size: cover; 
 }
 
@@ -75,6 +84,7 @@ li a:hover {
 
 h1 {
     text-align: center;
+    
 }
 
 #formu {
@@ -86,7 +96,7 @@ h1 {
 }
 
 fieldset {
-    border: 2px solid #fff;
+    border: 2px solid #01a5bb;
     border-radius: 5px;
     padding: 10px;
 }
@@ -96,7 +106,7 @@ input, select, textarea {
     padding: 10px;
     margin: 5px 0;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 1px solid #01a5bb;
     box-sizing: border-box;
 }
 
@@ -121,7 +131,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px 0;
-    background: url('imagenes/CTa.gif') center center fixed; /* pone el gif de fondo y su posición */
+    background: url('../Imagenes/CTa.gif') center center fixed; /* pone el gif de fondo y su posición */
     background-size: cover;
   }
   

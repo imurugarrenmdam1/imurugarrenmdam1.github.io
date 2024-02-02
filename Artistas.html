@@ -5,18 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reservas</title>
-    <link rel="stylesheet" href="Artistas.css">
+    <link rel="stylesheet" href="Style/Artistas.css">
 </head>
 <!--El body de la cabecera-->
 <body>
     <!--Tengo que cambiar el logo de prueba,
     el li de "logo" nos lleva a HOME-->
-    <h1>El logo es de prueba</h1>
-    <a src="index.html"><img src="imagenes/Banner.jpg" alt="Banner" class="banner"></a>
+    <div class="banner">
+      <img src="Imagenes/LogoEmpresa.jpg">
+      <div class="banner-content">
+          <h1>Bienvenido a Mi Página Web</h1>
+          <p>Explora, Descubre, Aprende</p>
+      </div>
+    </div>
     <ul>
       <li><a href="index.html">Inicio</a></li>
       <li><a href="Artistas.html">Artistas</a></li>
       <li><a class="active" href="reservas.html">Reserva</a></li>
     </ul>
+
+    <table>
+      <tr>
+        <th>Imagen</th>
+        <th>Texto</th>
+        <th>Enlace y Precio</th>
+      </tr>
+      <tr>
+        <td><img src="imagen1.jpg" alt="Imagen 1"></td>
+        <td>Descripción de la imagen 1.</td>
+        <td class="price">
+          <a href="enlace1.html">Enlace 1</a><br>
+          Precio: $50.00
+        </td>
+      </tr>
+      <tr>
+        <td><img src="imagen2.jpg" alt="Imagen 2"></td>
+        <td>Descripción de la imagen 2.</td>
+        <td class="price">
+          <a href="enlace2.html">Enlace 2</a><br>
+          Precio: $75.00
+        </td>
+      </tr>
+      <!-- Puedes agregar más filas según sea necesario -->
+    </table>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="Imagenes/LogoEmpresa.jpg" alt="Logo de Tu Empresa">
+        </div>
+        <div class="footer-info">
+          <p>2024 SUFTING. Todos los derechos reservados.</p>
+          <p>Dirección: Calle La  Perla, Bilbao</p>
+          <p>Email: SUFTING@gmail.com</p>
+        </div>
+        <div class="footer-social">
+          <a href="https://www.facebook.com/?locale=es_ES" target="_blank"><img src="../imurugarrenmdam1.github.io/Imagenes/facebook.png" alt="Facebook"></a>
+          <a href="https://twitter.com/?lang=es" target="_blank"><img src="../imurugarrenmdam1.github.io/Imagenes/instagram.png" alt="Twitter"></a>
+          <a href="https://www.instagram.com" target="_blank"><img src="../imurugarrenmdam1.github.io/Imagenes/twitter.png" alt="Instagram"></a>
+        </div>
+      </div>
+    </footer>
 
 </body>
