@@ -17,7 +17,7 @@
     max-width: 100%;
     height: auto auto auto auto;
     display: block;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     background-image: url('imagenes/LogoEmpresa.jpg'); /* Cambia 'ruta/de/la/imagen.jpg' por la ruta de tu imagen */
     background-size: cover; /* Cubrir todo el fondo */
     background-position: center;

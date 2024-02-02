@@ -83,22 +83,52 @@ pero esta asi temporalmente para hacer pruebas con los espaciados*/
   margin: 20px;
   background-color: #0A0E3F;
 }
-/*Css cards*/
+/*Css cards1*/
 
 .galeriahome1{
   background-color: #01a5bb;
   margin: 20px;
   border: 1px solid #ccc;
+  display: grid;
+  gap: 20px 20px;
+  padding: 10px;
+  
 }
-.galeriahome1 img{
-  padding: 20px;
+figure {
+  height: 90px;
+  width: 90px;
+  margin: 10px;
+  
+}
+figure img{
   height: 100px;
   width: 100px;
 }
 
-.concierto-uno{
-  
-  
+.conciertouno{
+  grid-column: 1 / 2;
+  grid-row: 1/ 2;
+}
+.conciertodos{
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+.conciertotres{
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
+
+.conciertocuatro{
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+.conciertocinco{
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+.conciertoseis{
+  grid-column: 3 / 4;
+  grid-row: 2 / 3 ;
 }
 
 
