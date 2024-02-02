@@ -154,3 +154,41 @@ footer {
     width: 30px; /* Ajusta el tamaño de los iconos de redes sociales */
     margin-right: 10px;
     }
+
+      @media screen and (max-width: 768px) {
+        /* Estilos específicos para tablet y móvil */
+    
+        .banner {
+            padding: 10px; /* Reducir el padding del banner */
+        }
+    
+        ul {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+          }
+    
+        li {
+            display: block; /* Cambiar a bloque para ocupar toda la anchura en móvil */
+            width: 100%;
+        }
+        ul li {
+            float: none;
+            width: 100%;
+            text-align: center;
+          }
+    
+        li a {
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+        }
+    
+        footer {
+            padding: 10px; /* Reducir el padding del footer */
+        }
+        .footer-content {
+            flex-direction: column;
+            text-align: center;
+          }
+    }
