@@ -20,16 +20,9 @@
     max-width: 10%;
     height: auto auto auto auto;
     display: block;
-<<<<<<< HEAD:reservas.css
-    /*margin: 0 auto;*/
-    background-image: url('imagenes/LogoEmpresa.jpg'); /* Cambia 'ruta/de/la/imagen.jpg' por la ruta de tu imagen */
-    background-size: cover; /* Cubrir todo el fondo */
-    background-position: center;
-=======
     margin: 0;
     padding: 0;
     background-image: url('../Imagenes/LogoEmpresa.jpg')center center fixed; /* Cambia 'ruta/de/la/imagen.jpg' por la ruta de tu imagen */
->>>>>>> 9243b08259fdee609b40d214a641619b67b32944:Style/reservas.css
     
 }
 
@@ -133,6 +126,7 @@ footer {
     padding: 20px 0;
     background: url('../Imagenes/CTa.gif') center center fixed; /* pone el gif de fondo y su posición */
     background-size: cover;
+    padding: 10px;
   }
   
   .footer-content {
