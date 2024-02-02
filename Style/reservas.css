@@ -117,7 +117,8 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #01a5bb;
+    background-color: white;
+    color: #01a5bb;
 }
 
 footer {
