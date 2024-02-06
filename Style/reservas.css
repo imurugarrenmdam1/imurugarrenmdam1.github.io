@@ -3,6 +3,11 @@
     margin: 0;
     font-family: Arial, sans-serif;
   }
+  h1 {
+    text-align: center;
+    font-size: 36px; /* Tamaño de fuente más grande */
+    color: #01a5bb; /* Color azul bonito */
+  }
 
   .banner {
     text-align: center;
@@ -50,6 +55,9 @@
 }
 
 ul {
+    position: sticky; /* Hace que el navbar se mantenga fijo */
+    top: 0; /* Lo coloca en la parte superior de la ventana */
+    width: 100%; /* Ancho completo */
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -125,9 +133,8 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px 0;
-    background: url('../Imagenes/CTa.gif') center center fixed; /* pone el gif de fondo y su posición */
+    background: url('Imagenes/CTa.gif') center center fixed; /* pone el gif de fondo y su posición */
     background-size: cover;
-    padding: 10px;
   }
   
   .footer-content {
@@ -153,42 +160,38 @@ footer {
   .footer-social img {
     width: 30px; /* Ajusta el tamaño de los iconos de redes sociales */
     margin-right: 10px;
-    }
+    align-items: center;
+  }
 
-      @media screen and (max-width: 768px) {
-        /* Estilos específicos para tablet y móvil */
-    
+    @media only screen and (max-width: 768px) {
+        /* Estilos para tablet */
         .banner {
-            padding: 10px; /* Reducir el padding del banner */
+          padding: 10px;
         }
-    
-        ul {
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-          }
-    
-        li {
-            display: block; /* Cambiar a bloque para ocupar toda la anchura en móvil */
-            width: 100%;
+        .banner img {
+          max-width: 20%;
         }
-        ul li {
-            float: none;
-            width: 100%;
-            text-align: center;
-          }
-    
-        li a {
-            display: block;
-            width: 100%;
-            box-sizing: border-box;
+        #formu {
+          width: 80%;
         }
-    
-        footer {
-            padding: 10px; /* Reducir el padding del footer */
+      }
+      
+      @media only screen and (max-width: 480px) {
+        /* Estilos para dispositivos móviles */
+        .banner {
+          padding: 5px;
+        }
+        .banner img {
+          max-width: 30%;
+        }
+        #formu {
+          width: 90%;
         }
         .footer-content {
-            flex-direction: column;
-            text-align: center;
-          }
+          flex-direction: column;
+          text-align: center;
+        }
+        .footer-info {
+          margin-top: 20px;
+        }
     }

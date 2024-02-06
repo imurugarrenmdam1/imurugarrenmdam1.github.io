@@ -5,6 +5,11 @@
   margin: 0;
   font-family: Arial, sans-serif;
 }
+h1 {
+  text-align: center;
+  font-size: 36px; /* Tamaño de fuente más grande */
+  color: #01a5bb; /* Color azul bonito */
+}
 
 .banner {
   text-align: center;
@@ -52,6 +57,9 @@ body {
 }
 
 ul {
+  position: sticky; /* Hace que el navbar se mantenga fijo */
+  top: 0; /* Lo coloca en la parte superior de la ventana */
+  width: 100%; /* Ancho completo */
   list-style-type: none;
   margin: 0;
   padding: 0;

@@ -5,6 +5,11 @@
   font-family: Arial, sans-serif;
 }
 
+h1 {
+  text-align: center;
+  font-size: 36px; /* Tamaño de fuente más grande */
+  color: #01a5bb; /* Color azul bonito */
+}
 
 .banner {
   text-align: center;
@@ -52,6 +57,9 @@ body {
 }
 
 ul {
+  position: sticky; /* Hace que el navbar se mantenga fijo */
+  top: 0; /* Lo coloca en la parte superior de la ventana */
+  width: 100%; /* Ancho completo */
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -134,6 +142,7 @@ footer {
   padding: 20px 0;
   background: url('../Imagenes/CTa.gif') center center fixed; /* pone el gif de fondo y su posición */
   background-size: cover;
+  padding: 10px;
 }
 
 .footer-content {
@@ -159,5 +168,32 @@ footer {
 .footer-social img {
   width: 30px; /* Ajusta el tamaño de los iconos de redes sociales */
   margin-right: 10px;
+  display: inline;
   }
   /*NO TOCAR CODIGO DE ARRIBA(FOOTER)*/
+  @media only screen and (max-width: 768px) {
+    /* Estilos para tablet */
+    .banner {
+      padding: 10px;
+    }
+    .banner img {
+      max-width: 20%;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    /* Estilos para dispositivos móviles */
+    .banner {
+      padding: 5px;
+    }
+    .banner img {
+      max-width: 30%;
+    }
+    .footer-content {
+      flex-direction: column;
+      text-align: center;
+    }
+    .footer-info {
+      margin-top: 20px;
+    }
+}
