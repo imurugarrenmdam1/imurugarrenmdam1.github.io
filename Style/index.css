@@ -41,7 +41,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #0A0E3F;
-  color: #01a5bb;
+  /*color: #01a5bb;*//*He puesto como comentario esto porque no cambiar realmente el color de nada importante ni visible y porque me da problemas en index*/
   background: url('../Imagenes/CTa.gif') center center fixed; /* Establece la imagen de fondo y su posición */
   background-size: cover; 
 }
@@ -82,27 +82,32 @@ li a:hover {
 /*Los el color background del body, imagenes y divs de la pagina principal esta horrible,
 pero esta asi temporalmente para hacer pruebas con los espaciados*/
 /*Cuerpo de Home*/
-.cuerpohome {
+/*.cuerpohome {
   align-content: center;
   margin: 20px;
   background-color: #0A0E3F;
-}
+}*/
 /*Css cards1*/
 
 .galeriahome1{
-  background-color: #01a5bb;
-  margin: 20px;
-  border: 1px solid #ccc;
+  margin: auto;
   display: grid;
   gap: 20px 20px;
   padding: 10px;
+
+  max-width: 900px;
+  max-height: 900px;
+  width: 100%;
+
+  box-shadow: 0cap 3px 3px 3px /*#335FFF*/ black;
+  border-radius: 13px 13px;
+
+}
+figcaption{
   
 }
 figure {
-  height: 90px;
-  width: 90px;
-  margin: 10px;
-  
+  background-color: ;
 }
 figure img{
   height: 100px;
@@ -135,6 +140,40 @@ figure img{
   grid-row: 2 / 3 ;
 }
 
+/*Prueva dos del estilo de los cards*/
+/*Todos los cards*/
+.cardtodos{
+  display: flex;
+  margin: auto;
+  height: auto;
+  width: auto;
+
+  display: flex;
+  overflow: auto;
+ 
+}
+.card{
+  margin: 10px;
+  /*border: 5px solid ;*/
+  max-width: 900px;
+  max-height: 1900px;
+  width: 100%;
+
+  margin: auto;
+
+  box-shadow: 0cap 3px 3px 3px /*#335FFF*/ black;
+  background-color: #335FFF;
+  border-radius: 13px 13px;
+
+  padding: 10px;
+}
+.card .piecarta{
+  background-color: /*#3376FF*/ #335FFF;
+  padding: 10px;
+
+  border-radius: 0px 0px 13px 13px;
+
+}
 
 
 /*NO TOCAR CODIGO DE DE ABAJO(FOOTER)*/
