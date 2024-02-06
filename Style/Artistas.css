@@ -134,6 +134,22 @@ li a:hover {
     a:hover {
       text-decoration: underline;
     }
+    .table-container {
+    position: relative;
+    cursor: pointer;
+    }
+
+    .table-container:hover img {
+    transform: scale(1.1); /* Aumenta el tamaño de la imagen al pasar el cursor */
+    }
+
+    .table-container img {
+    max-width: 100px;
+    max-height: 100px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    }
 
 /*NO TOCAR CODIGO DE DE ABAJO(FOOTER)*/
 footer {
@@ -179,6 +195,9 @@ footer {
     .banner img {
       max-width: 20%;
     }
+    th, td {
+      padding: 10px; /* Ajusta el espacio interno de las celdas */
+    }
   }
   
   @media only screen and (max-width: 480px) {
@@ -196,4 +215,9 @@ footer {
     .footer-info {
       margin-top: 20px;
     }
-}
+    th, td {
+      padding: 8px; /* Ajusta el espacio interno de las celdas */
+      font-size: 12px; /* Reduce el tamaño de fuente para pantallas pequeñas */
+    }
+  }
+  
