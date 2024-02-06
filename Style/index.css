@@ -218,3 +218,31 @@ footer {
     margin-right: 10px;
   }
   /*NO TOCAR CODIGO DE ARRIBA(FOOTER)*/
+  /*RESPONSIVE BANNER Y FOOTER*/
+  @media only screen and (max-width: 768px) {
+    /* Estilos para tablet */
+    .banner {
+      padding: 10px;
+    }
+    .banner img {
+      max-width: 20%;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    /* Estilos para dispositivos móviles */
+    .banner {
+      padding: 5px;
+    }
+    .banner img {
+      max-width: 30%;
+    }
+    .footer-content {
+      flex-direction: column;
+      text-align: center;
+    }
+    .footer-info {
+      margin-top: 20px;
+    }
+    /*FIN RESPONSIVE BANNER Y FOOTER*/
+  }
