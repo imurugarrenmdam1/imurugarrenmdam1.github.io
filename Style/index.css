@@ -236,7 +236,11 @@ h2{
   flex-wrap: wrap;
   justify-content: center;
 
+<<<<<<< HEAD
   
+=======
+  border: 4px solid #01a5bb;
+>>>>>>> 980aeaa6069701e427ccddfcb62ceff22bcffd20
   
 
   width: 100%;
@@ -250,7 +254,11 @@ h2{
   max-width: 300;
   min-height: 300;
   
+<<<<<<< HEAD
   
+=======
+  border: 5px solid #01a5bb;
+>>>>>>> 980aeaa6069701e427ccddfcb62ceff22bcffd20
   
 
 
@@ -263,6 +271,11 @@ h2{
   max-width: 260px;
   margin: 18px;
   text-align: center;
+<<<<<<< HEAD
+=======
+  border: 2px solid black;
+
+>>>>>>> 980aeaa6069701e427ccddfcb62ceff22bcffd20
   flex-direction: column;
 
   
@@ -285,11 +298,16 @@ h2{
 }
 
 .footercard{
+<<<<<<< HEAD
   /*background-color: #01a5bb;*/
   /*background: linear-gradient(black, #01a5bb);*/
   border-top: 1px solid white;
 
   padding: 15px 10px 10px 10px;
+=======
+  background-color: #01a5bb;
+  padding: 10px;
+>>>>>>> 980aeaa6069701e427ccddfcb62ceff22bcffd20
 
   margin-top: auto;
 }
