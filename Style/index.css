@@ -175,12 +175,22 @@ h2{
   max-width: 900px;
   margin: 0;
   
+  
 }
+
+/*.flex-container .card{
+  max-height: 700px;
+  overflow: hidden;
+}
+
+.flex-container .card text{
+  text
+}*/
 
 .card{
   display: flex;
   max-width: 300;
-  min-height: 300;
+  max-height: 300;
   
   
   
@@ -242,6 +252,31 @@ h2{
   color: white;
 }
 
+
+/*Responsive de index*/
+/* Estilos index para tablet */
+@media only screen and (max-width: 768px) {
+  .flex-container {
+    min-width: 300px;
+  }
+  .card{
+    min-width: 300px;
+  }
+  
+}
+
+/* Estilos index para móviles */
+@media only screen and (max-width: 480px) {
+  .flex-container {
+    min-width: 100px;
+  }
+
+  .card{
+    min-width: 100px;
+  }
+  
+
+}
 
 
 
