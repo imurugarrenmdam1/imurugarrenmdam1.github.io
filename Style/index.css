@@ -265,6 +265,8 @@ h2{
   flex-direction: column;
 
   
+  flex-grow: 1;
+  flex-shrink: 1;
 }
 
 
@@ -273,11 +275,10 @@ h2{
 }
 
 .footercard{
-  min-height: 50px;
-  
+  background-color: grey;
+  padding: 10px;
 
-  flex-grow: 1;
-  flex-shrink: 1;
+  margin-top: auto;
 }
 
 
