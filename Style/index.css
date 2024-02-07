@@ -144,92 +144,22 @@ h2{
 
   box-sizing: border-box;
 
+  max-width: 900px;
 
   display: grid;
-  /*place-items: center;*/
-
+  place-items: center;
 
 
   margin: auto;
   gap: 20px 20px 20px 20px;
-
-  border: 2px solid red;
 }
 
 
 
 
-/*++++++++++++++++++++++++++++++*/
-/*Prueva tres del estilo de los cards*/
-/*Todos los cards*/
 
 
 
-/*.flex-container{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-
-  border: 4px solid ;
-  padding: 10px;
-}
-.flex-container div{
-  background-color: gray;
-  width: 100px;
-  margin: 18px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
-  border: 2px solid red;
-}*/
-
-/*++++++++++++++++++++++++++++++*/
-
-
-
-
-/*.cuerpocards{
-  width: 100%;
-  max-width: 900px;
-  max-height: 1200px;
-  margin: 0 auto;
-  
-  padding: 20px;
-  box-sizing: border-box;
-
-  flex-wrap: wrap-reverse;
-
-  border: 5px solid ;
-}
-
-.cards{
-  display: flex;
-  height: 100%;
-  max-height: 450;
-  
-  border: 5px solid red;
-  
-}
-
-.card{
-  margin: 10px;
-  border: 5px solid black;
-
-  background-color: blanchedalmond;
-}
-
-.card .footer{
-  background-color: grey;
-  padding: 10px;
-}
-
-.content img{
-  width: 100%;
-  height: 2000%;
-}*/
-
-
-/*++++++++++++++++++++++++++++++*/
 
 .flex-container{
   
@@ -243,9 +173,8 @@ h2{
 
   width: 100%;
   max-width: 900px;
-  margin: auto;
+  margin: 0;
   
-  border: 2px solid red;
 }
 
 .card{
@@ -273,7 +202,6 @@ h2{
   flex-shrink: 1;
 
   box-shadow: 10px 10px 10px#000000;
-
   
 }
 
@@ -296,7 +224,6 @@ h2{
   padding: 15px 10px 10px 10px;
 
   margin-top: auto;
-  
 }
 
 .footercard button{
@@ -316,72 +243,6 @@ h2{
 }
 
 
-
-
-
-
-/*++++++++++++++++++++++++++++++*/
-/*Prueva tres del estilo de los cards*/
-/*Todos los cards*/
-
-.cuerpoizquierdo{
-  background-color: #01a5bb;
-  border: 2px solid red;
-
-  box-sizing: border-box;
-
-  min-width: 200px;
-  min-height: 300px;
-  max-width: 200px;
-  
-
-  place-items: left;
-
-
-  margin-right: auto;
-  gap: 20px 20px 20px 20px;
-
-  border: 2px solid red;
-}
-
-.cuerpoizquierdo img{
-  width: 100%;
-
-}
-
-.cuerpoderecho{
-  background-color: #01a5bb;
-  border: 2px solid red;
-
-    box-sizing: border-box;
-
-  min-width: 200px;
-  min-height: 300px;
-  max-width: 200px;
-  
-
-  display: grid;
-  place-items: right;
-
-
-  margin-left: auto;
-  gap: 20px 20px 20px 20px;
-
-  border: 2px solid red;
-}
-
-.cuerpoderecho img{
-  width: 100%;
-
-}
-
-.anuncioderecho{
-
-}
-
-.anuncioizquierdo{
-
-}
 
 
 

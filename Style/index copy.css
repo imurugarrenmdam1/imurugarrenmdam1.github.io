@@ -139,24 +139,6 @@ h2{
 
 
 
-.cuerpohome{
-  
-
-  box-sizing: border-box;
-
-
-  display: grid;
-  /*place-items: center;*/
-
-
-
-  margin: auto;
-  gap: 20px 20px 20px 20px;
-
-  border: 2px solid red;
-}
-
-
 
 
 /*++++++++++++++++++++++++++++++*/
@@ -324,50 +306,57 @@ h2{
 /*Prueva tres del estilo de los cards*/
 /*Todos los cards*/
 
-.cuerpoizquierdo{
-  background-color: #01a5bb;
-  border: 2px solid red;
+.todostitulillos{
+  width: 100%;
+  align-items: center;
+}
 
-  box-sizing: border-box;
+.cuerpohome{
+  
+  display: flex;
+  border: 2px solid green;
+  flex-flow: row wrap;
+  /*box-sizing: border-box;
 
-  min-width: 200px;
-  min-height: 300px;
-  max-width: 200px;
+
+  display: grid;
   
 
-  place-items: left;
 
 
-  margin-right: auto;
+  margin: auto;
   gap: 20px 20px 20px 20px;
 
   border: 2px solid red;
+
+  
+  
+
+  display: flex;
+  flex-wrap: wrap;
+
+  
+  
+
+  width: 100%; 
+  box-sizing: border-box;
+
+  display: grid;
+  
+
+
+
+  margin: auto;
+  gap: 20px 20px 20px 20px;
+
+  border: 2px solid red;*/
 }
+
+
 
 .cuerpoizquierdo img{
   width: 100%;
 
-}
-
-.cuerpoderecho{
-  background-color: #01a5bb;
-  border: 2px solid red;
-
-    box-sizing: border-box;
-
-  min-width: 200px;
-  min-height: 300px;
-  max-width: 200px;
-  
-
-  display: grid;
-  place-items: right;
-
-
-  margin-left: auto;
-  gap: 20px 20px 20px 20px;
-
-  border: 2px solid red;
 }
 
 .cuerpoderecho img{
@@ -385,10 +374,112 @@ h2{
 
 
 
+/*Divs contenedor cuerpo pag*/
 
 
 
 
+
+
+  .cuerpoizquierdo {
+    background-color: #01a5bb;
+    border: 2px solid red;
+
+    box-sizing: border-box;
+
+    min-width: 400px;
+    min-height: 300px;
+    
+    
+
+    place-items: left;
+
+
+    margin-right: auto;
+    gap: 20px 20px 20px 20px;
+
+    border: 2px solid red;
+  }
+
+  .cuerpoderecho {
+    background-color: #01a5bb;
+    border: 2px solid red;
+
+    box-sizing: border-box;
+
+    min-width: 400px;
+    min-height: 300px;
+    
+    
+
+    display: grid;
+    place-items: right;
+
+
+    margin-left: auto;
+    gap: 20px 20px 20px 20px;
+
+    border: 2px solid red;
+  }
+
+
+  /* Estilos que tendra en tablet */
+  @media  only screen and (max-width: 768px) {
+    
+    .cuerpoizquierdo {
+      background-color: #01a5bb;
+      border: 2px solid red;
+  
+      box-sizing: border-box;
+  
+      min-width: 400px;
+      min-height: 300px;
+      
+      
+  
+      place-items: left;
+  
+  
+      margin-right: auto;
+      gap: 20px 20px 20px 20px;
+  
+      border: 2px solid red;
+    }
+    
+    .cuerpoderecho {
+      background-color: #01a5bb;
+      border: 2px solid red;
+  
+      box-sizing: border-box;
+  
+      min-width: 400px;
+      min-height: 300px;
+      
+      
+  
+      display: grid;
+      place-items: right;
+  
+  
+      margin-left: auto;
+      gap: 20px 20px 20px 20px;
+  
+      border: 2px solid red;
+    }
+  }
+
+
+  /* Estilos que tendra en moviles */
+  @media only screen and (max-width: 480px) {
+    /* Estilos para dispositivos móviles */
+    .box {
+      width: 100px;
+      height: 100px;
+      
+      background-color: red;
+    }
+    
+  }
 
 
 
